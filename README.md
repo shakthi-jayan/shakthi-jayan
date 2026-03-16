@@ -5,7 +5,7 @@ Hello, I'm **Shakthi Jayan** 👋
 🎓 Student passionate about **building real-world software products**
 💻 Focused on **React, Django, and Full-Stack Development**
 🚀 Interested in **SaaS platforms, scalable web apps, and API architecture**
-📈 Goal: Become a **high-level software engineer in top MNCs (40–50 LPA target)**
+
 
 I enjoy building **real working applications**, especially projects involving modern UI systems, REST APIs, and scalable backend architecture.
 
