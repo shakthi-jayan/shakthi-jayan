@@ -49,7 +49,7 @@ A distributed API gateway built from scratch in Spring Boot, handling authentica
 * Refactored Express routes into a modular architecture and indexed high-traffic MongoDB Atlas fields for scalability.
 
 **Stack:** React, Node.js, Express.js, MongoDB, Razorpay, Cloudinary
-🔗 [Repository](https://github.com/shakthi-jayan/commerce-core) · 🌐 [Live Demo](https://commerce-core-frontend.vercel.app/)
+🔗 [Repository](https://github.com/shakthi-jayan/commerce-core) · 🌐 [Live Demo](https://commerce-core-frontend.vercel.app)
 
 ### Task Manager -- Full Stack MERN Application
 * Secured user session routes with custom JWT middleware validation, preventing unauthorized data access.
@@ -57,7 +57,8 @@ A distributed API gateway built from scratch in Spring Boot, handling authentica
 * Built automated Postman regression suites covering CRUD API routes.
 
 **Stack:** React, Node.js, Express.js, MongoDB, JWT
-🔗 [Repository](https://github.com/shakthi-jayan/task-manager-fullstack) · 🌐 Live Demo
+🔗 [Repository](https://github.com/shakthi-jayan/task-manager-fullstack) · 🌐 [Live Demo](https://todo-list-sigma-rosy-21.vercel.app)
+
 
 ---
 
