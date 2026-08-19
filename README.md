@@ -1,86 +1,92 @@
-<div align="center">
+<h1 align="center">Hi, I'm Shakthi Jayan 👋</h1>
+<h3 align="center">Backend-Focused Software Engineer (Fresher, 2027) | Java · Spring Boot · Distributed Systems | React · Node.js</h3>
 
-# Hi, I'm Shakthi Jayan 👋
-### Backend-Focused Full-Stack Developer | Spring Boot, Distributed Systems, MERN
-
-I build backend systems and full-stack applications, with a growing focus on distributed systems, API infrastructure, and resilience patterns. Currently deep in Spring Boot, Redis, and Docker while preparing for product-based SDE roles -- transitioning into software engineering from a Chemical Engineering background through self-driven backend projects.
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shakthi-jayan/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shakthi-jayan)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shakthi-s-dev-hub.vercel.app/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shakthijayan19@gmail.com)
-
-</div>
+<p align="center">
+  <a href="https://www.linkedin.com/in/shakthi-jayan"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
+  <a href="https://shakthi-s-dev-hub.vercel.app"><img src="https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/shakthi_jayan_"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white" /></a>
+  <a href="mailto:shakthijayan19@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+</p>
 
 ---
 
-## Technical Expertise
+### 🚀 About Me
 
-* **Core Languages:** Java, Python, JavaScript (ES6+), C++, SQL
-* **Backend & Systems:** Spring Boot, Spring Cloud Gateway, Node.js, Express.js, Django, Django REST Framework, Flask, RESTful API Design
-* **Frontend Engineering:** React, Next.js, Tailwind CSS
-* **Databases & Infra:** Redis, PostgreSQL, MySQL, MongoDB, Docker, Docker Compose, Firebase
-* **Resilience & Distributed Systems:** Bucket4j (rate limiting), Resilience4j (circuit breaking), JWT authentication
-* **Tools & Testing:** Git, GitHub, Postman, k6 (load testing)
+I build backend systems and full-stack apps that hold up under real load. Most recently: **Sentinel Gateway**, a distributed API gateway built from scratch in Spring Boot — JWT authentication, Redis-backed rate limiting, and a circuit breaker verified by killing a service mid-traffic and confirming self-recovery. Load tested with k6: 1,194 of 1,206 requests correctly throttled (99%) under sustained load.
+
+I'm a final-year B.Tech student (Chemical Engineering) who taught myself backend engineering and shipped production systems along the way — currently working as a Full Stack Developer & Technical Trainer, mentoring 350+ students in Java, Python, React, and Django.
+
+**Looking for:** Software Engineer / Backend Developer roles at product-based companies where I can keep building systems that scale and learn from strong engineering teams.
 
 ---
 
-## Featured Project
+### 🛠️ Tech Stack
 
-### Sentinel Gateway -- Distributed API Gateway & Rate Limiter
+**Languages:** ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+**Backend & Systems:** ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Cloud Gateway](https://img.shields.io/badge/-Spring%20Cloud%20Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white) ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+
+**Frontend:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Data & Infra:** ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**Resilience & Testing:** Bucket4j (rate limiting) · Resilience4j (circuit breaking) · JWT · Git/GitHub · Postman · k6 (load testing)
+
+---
+
+### 📌 Featured Project
+
+#### [Sentinel Gateway — Distributed API Gateway & Rate Limiter](https://github.com/shakthi-jayan/sentinel-gateway)
 A distributed API gateway built from scratch in Spring Boot, handling authentication, per-client rate limiting, and fault tolerance across multiple backend microservices.
 
-* **Distributed rate limiting:** Token-bucket algorithm (Bucket4j) backed by Redis, so the rate limit holds consistently even across multiple gateway instances -- not just an in-memory counter.
-* **JWT authentication as a trust boundary:** requests are validated at the gateway before ever reaching a downstream service.
-* **Circuit breaker (Resilience4j):** detects downstream failures, fails fast with a fallback, and automatically recovers -- verified by killing a service mid-traffic and confirming self-recovery.
-* **Load tested with k6:** 1,206 requests from 10 concurrent virtual users in 15 seconds, with 99% correctly throttled once the rate limit was reached.
-* **Fully containerized** with Docker Compose on a custom bridge network.
+- **Distributed rate limiting:** Token-bucket algorithm (Bucket4j) backed by Redis, so limits hold consistently across multiple gateway instances — not just an in-memory counter
+- **JWT authentication as a trust boundary:** requests are validated at the gateway before ever reaching a downstream service
+- **Circuit breaker (Resilience4j):** detects downstream failures, fails fast with a fallback, and recovers automatically — verified by killing a service mid-traffic
+- **Load tested with k6:** 1,206 requests from 10 concurrent virtual users in 15 seconds, with 99% correctly throttled once the rate limit was reached
+- **Fully containerized** with Docker Compose on a custom bridge network
 
 **Stack:** Java 25, Spring Boot 4.1, Spring Cloud Gateway, Redis, Bucket4j, JWT, Resilience4j, Docker Compose, k6
-🔗 [Repository](https://github.com/shakthi-jayan/sentinel-gateway)
 
 ---
 
-## Other Projects
+### 💼 Other Projects
 
-### CodeCommerce -- Full Stack E-Commerce Platform
-* Reduced checkout drop-offs by 25% by integrating Razorpay payment gateway with an asynchronous cart management pipeline.
-* Improved frontend media delivery speed by 40% via Cloudinary automated processing and image lazy-loading.
-* Refactored Express routes into a modular architecture and indexed high-traffic MongoDB Atlas fields for scalability.
+#### [Pecafoo — Hyperlocal Food Delivery Platform](https://github.com/shakthi-jayan/pecafoo) · *Live in production*
+- Real-time order tracking via Django Channels
+- OSRM-based delivery routing
+- **Stack:** Django REST Framework, PostgreSQL/PostGIS, Redis, Celery, React
 
-**Stack:** React, Node.js, Express.js, MongoDB, Razorpay, Cloudinary
-🔗 [Repository](https://github.com/shakthi-jayan/commerce-core) · 🌐 [Live Demo](https://commerce-core-frontend.vercel.app)
+#### [CodeCommerce — Full Stack E-Commerce Platform](https://github.com/shakthi-jayan/codecommerce) · [Live Demo](https://codecommerce.vercel.app)
+- Reduced checkout drop-offs by 25% by integrating Razorpay with an asynchronous cart pipeline
+- Improved frontend media delivery speed by 40% via Cloudinary automated processing and lazy-loading
+- Refactored Express routes into a modular architecture and indexed high-traffic MongoDB Atlas fields for scalability
+- **Stack:** React, Node.js, Express.js, MongoDB, Razorpay, Cloudinary
 
-### Task Manager -- Full Stack MERN Application
-* Secured user session routes with custom JWT middleware validation, preventing unauthorized data access.
-* Reduced frontend rendering latency by 15% through decoupled React state and reusable component design.
-* Built automated Postman regression suites covering CRUD API routes.
+#### Spring Boot Authentication Microservice
+- 9-module microservice covering JWT rotation, RBAC, OAuth2, and 2FA
+- **Stack:** Java, Spring Boot, Spring Security
 
-**Stack:** React, Node.js, Express.js, MongoDB, JWT
-🔗 [Repository](https://github.com/shakthi-jayan/task-manager-fullstack) · 🌐 [Live Demo](https://todo-list-sigma-rosy-21.vercel.app)
-
-
----
-
-## Currently Focused On
-
-* Deepening backend and distributed-systems fundamentals (rate limiting, resilience patterns, gateway architecture)
-* Structured DSA preparation in Java for product-based SDE interviews (80+ LeetCode problems solved so far)
-* Extending Sentinel Gateway with observability (Prometheus metrics) and environment-based secrets management
+#### [Task Manager — Full Stack MERN Application](https://github.com/shakthi-jayan/task-manager) · [Live Demo](https://task-manager-demo.vercel.app)
+- Secured user session routes with custom JWT middleware validation
+- Reduced frontend rendering latency by 15% through decoupled React state and reusable components
+- Built automated Postman regression suites covering CRUD API routes
+- **Stack:** React, Node.js, Express.js, MongoDB, JWT
 
 ---
 
-## Engineering Footprint
+### 🧠 Currently Focused On
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=shakthi-jayan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=shakthi-jayan&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
-</div>
+- Deepening backend and distributed-systems fundamentals (rate limiting, resilience patterns, gateway architecture)
+- Structured DSA preparation in Java for product-based SDE interviews (80+ LeetCode problems solved so far)
+- Extending Sentinel Gateway with observability (Prometheus metrics) and environment-based secrets management
 
 ---
 
-<div align="center">
+### 📊 Engineering Footprint
 
-*"First solve the problem, then write the code."*
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shakthi-jayan&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=shakthi-jayan&theme=tokyonight&hide_border=true" height="165"/>
+</p>
 
-</div>
+<p align="center"><i>"First solve the problem, then write the code."</i></p>
