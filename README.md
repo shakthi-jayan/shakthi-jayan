@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Shakthi Jayan 👋</h1>
-<h3 align="center">Backend-Focused Software Engineer (Fresher, 2027) | Java · Spring Boot · Distributed Systems | React · Node.js</h3>
+<h3 align="center">Software Development Engineer (Fresher, 2027) | Backend & Distributed Systems | Java · Spring Boot · React · Node.js</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shakthi-jayan"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
@@ -12,9 +12,11 @@
 
 ### 🚀 About Me
 
-I build backend systems and full-stack apps that hold up under real load. Most recently: **Sentinel Gateway**, a distributed API gateway built from scratch in Spring Boot — JWT authentication, Redis-backed rate limiting, and a circuit breaker verified by killing a service mid-traffic and confirming self-recovery. Load tested with k6: 1,194 of 1,206 requests correctly throttled (99%) under sustained load.
+I'm a software developer specializing in backend and full-stack systems (Spring Boot, Node.js, MERN), transitioning into software engineering from a Chemical Engineering background through self-driven, project-based learning.
 
-I'm a final-year B.Tech student (Chemical Engineering) who taught myself backend engineering and shipped production systems along the way — currently working as a Full Stack Developer & Technical Trainer, mentoring 350+ students in Java, Python, React, and Django.
+Most recently, I built **Sentinel Gateway** — a distributed API gateway built from scratch in Spring Boot — with JWT authentication, Redis-backed rate limiting, and a circuit breaker verified by killing a service mid-traffic and confirming self-recovery. Load tested with k6: 1,194 of 1,206 requests correctly throttled (99%) under sustained load.
+
+I'm a final-year B.Tech student (Chemical Engineering, expected May 2027) who taught myself backend engineering and shipped production-style systems along the way, with active DSA preparation (80+ LeetCode problems) for product-based SDE roles.
 
 **Looking for:** Software Engineer / Backend Developer roles at product-based companies where I can keep building systems that scale and learn from strong engineering teams.
 
@@ -24,13 +26,13 @@ I'm a final-year B.Tech student (Chemical Engineering) who taught myself backend
 
 **Languages:** ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-**Backend & Systems:** ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Cloud Gateway](https://img.shields.io/badge/-Spring%20Cloud%20Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white) ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+**Backend & APIs:** ![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Spring Cloud Gateway](https://img.shields.io/badge/-Spring%20Cloud%20Gateway-6DB33F?style=flat-square&logo=spring&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white) ![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 
-**Frontend:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+**Frontend:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
 
-**Data & Infra:** ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+**Data & Infra:** ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
-**Resilience & Testing:** Bucket4j (rate limiting) · Resilience4j (circuit breaking) · JWT · Git/GitHub · Postman · k6 (load testing)
+**Resilience & Testing:** Bucket4j (rate limiting) · Resilience4j (circuit breaking) · JWT · Git/GitHub · Postman · k6 (load testing) · Linux · Vercel
 
 ---
 
@@ -51,16 +53,16 @@ A distributed API gateway built from scratch in Spring Boot, handling authentica
 
 ### 💼 Other Projects
 
-#### [Pecafoo — Hyperlocal Food Delivery Platform](https://github.com/shakthi-jayan/pecafoo) · *Live in production*
-- Real-time order tracking via Django Channels
-- OSRM-based delivery routing
-- **Stack:** Django REST Framework, PostgreSQL/PostGIS, Redis, Celery, React
-
-#### [CodeCommerce — Full Stack E-Commerce Platform](https://github.com/shakthi-jayan/codecommerce) · [Live Demo](https://codecommerce.vercel.app)
+#### [CodeCommerce — Full Stack E-Commerce Platform](https://commerce-core-frontend.vercel.app) · [GitHub](https://github.com/shakthi-jayan/commerce-core)
 - Reduced checkout drop-offs by 25% by integrating Razorpay with an asynchronous cart pipeline
 - Improved frontend media delivery speed by 40% via Cloudinary automated processing and lazy-loading
 - Refactored Express routes into a modular architecture and indexed high-traffic MongoDB Atlas fields for scalability
 - **Stack:** React, Node.js, Express.js, MongoDB, Razorpay, Cloudinary
+
+#### [Pecafoo — Hyperlocal Food Delivery Platform](https://github.com/shakthi-jayan/pecafoo) · *Live in production*
+- Real-time order tracking via Django Channels
+- OSRM-based delivery routing
+- **Stack:** Django REST Framework, PostgreSQL/PostGIS, Redis, Celery, React
 
 #### Spring Boot Authentication Microservice
 - 9-module microservice covering JWT rotation, RBAC, OAuth2, and 2FA
@@ -71,6 +73,27 @@ A distributed API gateway built from scratch in Spring Boot, handling authentica
 - Reduced frontend rendering latency by 15% through decoupled React state and reusable components
 - Built automated Postman regression suites covering CRUD API routes
 - **Stack:** React, Node.js, Express.js, MongoDB, JWT
+
+---
+
+### 💼 Experience
+
+**Full Stack Development Tutor** — CSC Computer Science College, Chennai *(Oct 2023 – Present)*
+- Mentored and code-reviewed 100+ students, achieving a 95% project completion and graduation rate across Python, React.js, and modern JavaScript modules
+- Designed structured workshops on debugging environments, Git branching, and REST architecture patterns
+
+**Python Programming Virtual Intern** — CodSoft (Remote) *(Aug 2024 – Sep 2024)*
+- Built individual software utilities focused on performance profiling and OOP module separation
+- Maintained a 100% milestone compliance record across remote team repositories using version control tracking protocols
+
+---
+
+### 🎓 Education
+
+**B.Tech, Chemical Engineering** — Vel Tech High Tech Dr. Rangarajan Engineering College, Chennai *(Expected May 2027)* · CGPA 7.40
+**Honours Diploma in Computer Applications (HDCA)** — CSC Computer Science College, Chennai *(2023)*
+
+*Core software engineering skills developed through self-directed, project-based learning outside formal coursework — see Projects & Tech Stack above.*
 
 ---
 
