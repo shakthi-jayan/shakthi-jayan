@@ -108,7 +108,7 @@ A distributed API gateway built from scratch in Spring Boot, handling authentica
 ### 📊 Engineering Footprint
 
 <p align="center">
-  <img src="https://github-readme-stats.herokuapp.app/api?username=shakthi-jayan&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=shakthi-jayan&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
   <img src="https://streak-stats.demolab.com?user=shakthi-jayan&theme=tokyonight&hide_border=true" height="165"/>
 </p>
 
