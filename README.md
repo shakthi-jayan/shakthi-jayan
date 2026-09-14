@@ -44,13 +44,15 @@ A distributed API gateway built from scratch in Spring Boot, handling authentica
 - Load tested with k6: 10 concurrent virtual users processed 1,200+ requests, with 99% of excess traffic correctly throttled.
 - **Stack:** Java, Spring Boot, Spring Cloud Gateway, Redis, Bucket4j, JWT, Resilience4j, Docker Compose, k6
 
-#### 2. [Patient Management System [In Progress]](https://github.com/shakthi-jayan/patient-management)
-An enterprise-grade patient management platform built on a production-ready microservices architecture.
-- Implementing asynchronous event-driven communication using Kafka alongside synchronous inter-service communication via gRPC and REST APIs.
-- Securing the platform with a dedicated authentication service utilizing Bearer tokens and managing external traffic via Spring Cloud Gateway.
-- Containerizing services with Docker and simulating AWS cloud infrastructure deployments (ECS, RDS, MSK) locally using LocalStack.
-- **Stack:** Java, Spring Boot, PostgreSQL, Kafka, gRPC, Spring Cloud Gateway, Docker, LocalStack (AWS)
-
+#### 2. [Patient Management System 🚧 In Progress](https://github.com/shakthi-jayan/patient-management)
+An enterprise-grade patient management platform being built on a microservices architecture.
+- Built a Patient Service with a layered Spring Boot architecture (controller → DTO → mapper → service → repository); verified via manual API testing that patient records are correctly created and persisted to an H2 in-memory database.
+- 🚧 *Planned:* asynchronous event-driven communication using Kafka alongside synchronous inter-service communication via gRPC and REST APIs.
+- 🚧 *Planned:* a dedicated authentication service using Bearer tokens, with external traffic managed via Spring Cloud Gateway.
+- 🚧 *Planned:* containerizing services with Docker and simulating AWS infrastructure (ECS, RDS, MSK) locally using LocalStack.
+- **Stack (implemented):** Java, Spring Boot, H2  
+  **Stack (planned):** PostgreSQL, Kafka, gRPC, Spring Cloud Gateway, Docker, LocalStack (AWS)
+  
 #### 3. High-Concurrency Event-Driven System ("Ticketmaster" Clone) *[Just Started]*
 A high-concurrency event booking architecture designed to demonstrate asynchronous communication, strict data consistency, and race condition handling.
 - Developing a REST-based Order Service to handle incoming booking requests and a gRPC/REST Inventory Service to manage available seats.
